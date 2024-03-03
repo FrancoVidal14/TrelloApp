@@ -1,3 +1,7 @@
+section{
+  background-color: var(--gris);
+}
+
 mat-form-field{
     width: 100%;
 }
@@ -11,25 +15,25 @@ mat-form-field{
   }
   
   .example-list {
-    border: solid 1px #ccc;
+    border: solid 1px red;
     min-height: 60px;
-    background: white;
+    background: var(--azul);
     border-radius: 4px;
     overflow: hidden;
     display: block;
   }
   
   .example-box {
-    padding: 20px 10px;
-    border-bottom: solid 1px #ccc;
-    color: rgba(0, 0, 0, 0.87);
+    padding: 10px 5px;
+    border-bottom: solid 1px var(--blanco);
+    color: var(--blanco);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
     cursor: move;
-    background: white;
+    background: var(--azul);
     font-size: 14px;
   }
   
@@ -66,9 +70,9 @@ mat-form-field{
   .head-title{
     margin: 0;
     padding: 10px;
-    background-color: beige;
+    background-color: var(--oxford);
     border-radius: 4px;
-    color: blue;
+    color: var(--blanco);
     font-size: 1.5rem;
     font-weight: 600;
   }
